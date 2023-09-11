@@ -4,6 +4,17 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@dashkite/masonry':
+    specifier: link:../masonry
+    version: link:../masonry
+  '@dashkite/masonry-stylus':
+    specifier: link:../masonry-stylus
+    version: link:../masonry-stylus
+  '@dashkite/masonry-targets':
+    specifier: link:../masonry-targets
+    version: link:../masonry-targets
+
 devDependencies:
   '@dashkite/amen':
     specifier: ^0.2.0
@@ -17,6 +28,9 @@ devDependencies:
   '@dashkite/genie':
     specifier: link:../genie
     version: link:../genie
+  '@dashkite/genie-coffee':
+    specifier: link:../genie-coffee
+    version: link:../genie-coffee
 
 packages:
 

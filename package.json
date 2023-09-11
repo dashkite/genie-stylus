@@ -32,6 +32,12 @@
     "@dashkite/amen": "^0.2.0",
     "@dashkite/amen-console": "^0.0.2",
     "@dashkite/assert": "^0.1.4",
-    "@dashkite/genie": "link:../genie"
+    "@dashkite/genie": "link:../genie",
+    "@dashkite/genie-coffee": "link:../genie-coffee"
+  },
+  "dependencies": {
+    "@dashkite/masonry": "link:../masonry",
+    "@dashkite/masonry-stylus": "link:../masonry-stylus",
+    "@dashkite/masonry-targets": "link:../masonry-targets"
   }
 }
