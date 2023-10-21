@@ -1,7 +1,7 @@
 import M from "@dashkite/masonry"
 import stylus from "@dashkite/masonry-stylus"
 import T from "@dashkite/masonry-targets"
-import W from "@dashkite/masonry-targets/watch"
+import W from "@dashkite/masonry-watch"
 
 export default ( Genie ) ->
 

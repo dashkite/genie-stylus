@@ -38,6 +38,7 @@
   "dependencies": {
     "@dashkite/masonry": "link:../masonry",
     "@dashkite/masonry-stylus": "link:../masonry-stylus",
-    "@dashkite/masonry-targets": "link:../masonry-targets"
+    "@dashkite/masonry-targets": "link:../masonry-targets",
+    "@dashkite/masonry-watch": "link:../masonry-watch"
   }
 }
