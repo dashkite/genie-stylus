@@ -2,6 +2,10 @@ import M from "@dashkite/masonry"
 import stylus from "@dashkite/masonry-stylus"
 import T from "@dashkite/masonry-targets"
 
+# IMPORTANT we don't set defaults because we can't 
+# know what a reasonable default is: did you want
+# css or js?
+
 export default ( Genie ) ->
 
   options = Genie.get "stylus"
