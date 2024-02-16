@@ -34,7 +34,7 @@ export default ( Genie ) ->
     W = await import( "@dashkite/masonry-watch" )
     do M.start [
       W.glob options.targets
-      debounce -> Genie.apply "stylus"
+      debounce -> Genie.rerun "stylus"
 
       # W.match type: "file", name: [ "add", "change" ], [
       #   M.read
