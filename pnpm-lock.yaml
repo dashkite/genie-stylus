@@ -15,8 +15,8 @@ importers:
         specifier: link:../masonry-stylus
         version: link:../masonry-stylus
       '@dashkite/masonry-targets':
-        specifier: link:../masonry-targets
-        version: link:../masonry-targets
+        specifier: 0.2.0
+        version: 0.2.0
     devDependencies:
       '@dashkite/amen':
         specifier: ^0.2.0
@@ -64,6 +64,9 @@ packages:
 
   '@dashkite/kaiko@0.3.3':
     resolution: {integrity: sha512-XnAvVr9y2MsDqMLr4A24vkLF7Iuq3E8RjHEEpqhe29P5NevVX9jXKcXUStNMp9MSJbjHd2pqUNiM5Vvdja9ggg==}
+
+  '@dashkite/masonry-targets@0.2.0':
+    resolution: {integrity: sha512-+5VoeUdSqHUMNyxH7ippTq6VLEGiDd7yOh/4FiTmszetBZhMZUA2Pw7mvt7c8pF1dOQKahcFdqJw89IcVLiGxQ==}
 
   '@dashkite/zephyr@0.2.0':
     resolution: {integrity: sha512-l3Fm9nyOIp1yBnv4IzGOKVgo1/UucU5WLvsqAfcP2jEVlE4AgpPkODssyloxTyC3N+bhcz1DXqC/7KokI1eVjA==}
@@ -304,6 +307,11 @@ snapshots:
   '@dashkite/joy@0.3.16': {}
 
   '@dashkite/kaiko@0.3.3': {}
+
+  '@dashkite/masonry-targets@0.2.0':
+    dependencies:
+      '@dashkite/joy': 0.3.16
+      fast-glob: 3.3.3
 
   '@dashkite/zephyr@0.2.0':
     dependencies:
