@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@dashkite/masonry": "0.14.0",
-    "@dashkite/masonry-stylus": "link:../masonry-stylus",
+    "@dashkite/masonry-stylus": "0.1.0",
     "@dashkite/masonry-targets": "0.2.0"
   }
 }
