@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/genie-stylus",
-  "version": "0.11.6",
+  "version": "0.11.7",
   "description": "Genie Preset for transforming Stylus into CSS or JavaScript",
   "keywords": [],
   "homepage": "https://github.com/dashkite/genie-stylus#readme",
